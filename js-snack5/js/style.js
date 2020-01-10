@@ -4,10 +4,9 @@ var carlo='intero positivo';
 //----------
 //con ciclo for
 //---------
-for (var i = 0; i < 6; i++) {
-  numeri = parseInt(prompt('Inserisci il '+ ++i +'° numero', carlo));
+for (var i = 1; i < 6; i++) {
+  numeri = parseInt(prompt('Inserisci il '+ i +'° numero', carlo));
   console.log(numeri);
-  i--;
   if (numeri % 2 != 0) {
     dispari.push(numeri);
   }
